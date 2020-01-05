@@ -9,8 +9,7 @@ It is backed by easier use of Communication class from Xavier level.
 (You don't have to know key of each sensor in sensor references dictionary)
 
 '''
-from logpy.LogPy import Logger
-import threading
+from LogPy.logpy import Logger
 from communication.communication import Communication
 
 #Sensors imports

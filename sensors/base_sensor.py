@@ -4,7 +4,7 @@ Module includes BaseSensor class
 import zmq
 import ast
 import abc
-from logpy import Logger
+from LogPy.logpy import Logger
 from control.base_controller import BaseController
 
 

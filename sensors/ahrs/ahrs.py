@@ -2,13 +2,11 @@
 
 from sensors.ahrs.ahrs_itf import IAHRS
 from sensors.base_sensor import BaseSensor
-import ast
 import struct
 import threading
-import time
 import serial
 import os
-from logpy.LogPy import Logger
+from LogPy.logpy import Logger
 
 """
 from sensors.ahrs.ahrs_separate import AHRS_Separate

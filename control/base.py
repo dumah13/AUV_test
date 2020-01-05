@@ -2,7 +2,7 @@
 Module includes Base class
 """
 from threading import Lock
-from logpy import Logger
+from LogPy.logpy import Logger
 
 
 class Base():
